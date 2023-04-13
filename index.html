@@ -1,6 +1,9 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@67d1130/dist/aframe-extras.js"></script>
+    <!--    <script src="https://unpkg.com/super-hands@^3.0.3/dist/super-hands.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-super-hands-component@7d95eef/dist/super-hands.js"></script>
   </head>
   <body>
     <a-scene>
@@ -13,7 +16,7 @@
       <a-sky color="#ECECEC"></a-sky>
       
       <a-entity position="-1 1 -9" obj-model="obj: url(SeaMonster22CompleteWalking.obj)"
-          material="color: green" scale="0.1 0.1 0.2"> </a-entity>
+          material="color: blue" scale="0.001 0.001 0.001" hoverable grabbable stretchable draggable dropppable </a-entity>
 
       
     </a-scene>
